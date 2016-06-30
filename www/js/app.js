@@ -20,12 +20,12 @@ angular.module('App', ['ionic', 'highcharts-ng', 'ngAnimate'])
 
     'urls' : {
       // 'imageUrl': 'http://ec2-52-62-17-219.ap-southeast-2.compute.amazonaws.com/summit/resources',
-      'imageUrl': 'http://apac-web.au.cloudhub.io',
-      'qrUrl' : 'http://summit-util.au.cloudhub.io/api/qr-code?data=https://ap1.salesforce.com/',
-      'getOrder' : 'http://summit-goodies.au.cloudhub.io/api/orders/',
-      'queryProducts' : 'http://apac-api-service.au.cloudhub.io/api/products',
+      'imageUrl': '',
+      'qrUrl' : '/util/qr-code?data=https://ap1.salesforce.com/',
+      'getOrder' : '/api/orders/',
+      'queryProducts' : '/api/products',
       // 'whiteQrCode' : '/img/white-qr-code.png',
-      'placeOrders' : 'http://summit-goodies.au.cloudhub.io/api/orders'
+      'placeOrders' : '/api/orders'
     }
   }
 )
