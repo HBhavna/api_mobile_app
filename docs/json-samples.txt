@@ -1,0 +1,36 @@
+[
+                {
+                  "description": "Small T-shirt",
+                },
+                {
+                  "description": "Medium T-shirt",
+                },
+                {
+                  "description": "Muly Water Bottle",
+                }
+]
+
+
+[
+                {
+                  "productCode": "TS_M_S",
+                  "description": "Small T-shirt",
+                  "quantityInStock": 30,
+                  "unitPrice":20,
+                  "imageUrl":"/content/products/TS_M.jpg"
+                },
+                {
+                  "productCode": "TS_M_M",
+                  "description": "Medium T-shirt",
+                  "quantityInStock": 22,
+                  "unitPrice":20,
+                  "imageUrl":"/content/products/TS_M.jpg"
+                },
+                {
+                  "productCode": "W_BOTTLE",
+                  "description": "Muly Water Bottle",
+                  "quantityInStock" : 100,
+                  "unitPrice":10,
+                  "imageUrl":"/content/products/WATERBOTTLE.jpg"
+                }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "summit16",
+  "app_id": "8b30a035",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://localhost:8081/api"
+    },
+    {
+      "path": "/util",
+      "proxyUrl": "http://summit-util.au.cloudhub.io/api"
+    },
+    {
+      "path": "/content",
+      "proxyUrl": "http://apac-web.au.cloudhub.io/content"
+    }
+  ]
+}

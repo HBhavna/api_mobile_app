@@ -1,0 +1,12 @@
+Final salesforce+db->json
+
+%dw 1.0
+%output application/json
+%var inventory=flowVars['inventory']
+---
+payload map ((payload01 , indexOfPayload01) -> {
+	description: payload01.Description,
+	imageUrl: inventory[payload01.ProductCode].image,
+	productCode: payload01.ProductCode,
+	quantityInStock: inventory[payload01.ProductCode].stock
+})

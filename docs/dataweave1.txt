@@ -1,0 +1,22 @@
+database -> Map
+
+flowVars['inventory']
+
+inventorydb
+
+select * from inventory;
+
+
+%dw 1.0
+%output application/java
+%var prodCode=payload.*PRODUCT_CODE
+%var p=payload
+---
+{(
+	prodCode map (
+		'$' : {
+			 "stock" : p[$$].QUANTITY,
+			 "image" : p[$$].IMAGE_URL
+		}
+	))
+}

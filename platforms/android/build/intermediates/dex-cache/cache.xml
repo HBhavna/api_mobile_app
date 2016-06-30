@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/samuel/gitprojects/solaris/demo/summit/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="183ea72798f9b454e255803db868cbe7829b3730">
+        <dex dex="/Users/samuel/gitprojects/solaris/demo/summit/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_2741e9e81be9039e17a0161093d1598d06068b04.jar" />
+    </item>
+    <item
+        jar="/Users/samuel/bitprojects/mule/summit16/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98ae1d6288304ca1636d6d22540f0aa7b0c5053b">
+        <dex dex="/Users/samuel/bitprojects/mule/summit16/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_6c362868898275f9c5629085b30dbb149eb872f9.jar" />
+    </item>
+    <item
+        jar="/Users/samuel/works/shared-assets1/api_mobile_app/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7bef4d71cee64bb18744c79f9c40f2307a23b635">
+        <dex dex="/Users/samuel/works/shared-assets1/api_mobile_app/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_c3b7b5ac52df0a5281974f65f60ce3ee6aa1760a.jar" />
+    </item>
+    <item
+        jar="/Users/samuel/summit16/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="adcc392b98fd59ce4d0cfb41cddb2cae1b4da4ba">
+        <dex dex="/Users/samuel/summit16/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_4c6a5c5366682ad3992c2e0713205604147133cc.jar" />
+    </item>
+
+</items>
